@@ -1,0 +1,14 @@
+TOP 10 FEATURES BY ALE IMPORTANCE
+========================================
+
+                   feature  max_abs_effect   mean_effect  n_graphs
+14  Triangle Participation        0.540670 -1.295260e-18       120
+9              Eigenvector        0.426090  3.180326e-19       120
+10               Expansion        0.397220 -3.099373e-18       120
+2   Clustering Coefficient        0.305170 -3.507260e-04       120
+0              Betweenness        0.206610 -5.030698e-19       120
+1                Closeness        0.165547  2.176561e-05       120
+4                Cut Ratio        0.150260 -4.163336e-19       120
+12                     ODF        0.139874 -3.738636e-06       120
+7          E In Over E Out        0.129910  1.561251e-19       120
+6                     E In        0.128670 -2.272727e-08       120
