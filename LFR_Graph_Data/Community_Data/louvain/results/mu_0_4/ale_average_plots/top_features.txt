@@ -1,0 +1,14 @@
+TOP 10 FEATURES BY ALE IMPORTANCE
+========================================
+
+                   feature  max_abs_effect   mean_effect  n_graphs
+9              Eigenvector        0.386400 -1.514992e-18       120
+14  Triangle Participation        0.376950 -3.006854e-19       120
+10               Expansion        0.296010  1.503427e-19       120
+2   Clustering Coefficient        0.282319  2.002083e-04       120
+3              Conductance        0.180040  1.792548e-19       120
+4                Cut Ratio        0.179310 -5.782412e-20       120
+0              Betweenness        0.165460 -5.435467e-19       120
+13           Shortest Path        0.162206 -1.351902e-04       120
+1                Closeness        0.149502  6.831020e-05       120
+11          Normalised Cut        0.141300 -9.251859e-20       120
