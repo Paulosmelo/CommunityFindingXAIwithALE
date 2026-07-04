@@ -1,0 +1,16 @@
+\begin{table}[H]
+\centering
+\caption{Correlação de Spearman entre rankings ALE e de referência}
+\label{tab:spearman_ale_ranking}
+\begin{tabular}{lcccc}
+\hline
+\textbf{Algoritmo} & \textbf{$\mu$} & \textbf{Spearman $\rho$} & \textbf{p-valor} & \textbf{Status} \\
+\hline
+LOUVAIN & 0_2 & 1.000 & 0.0000 & ✅ Alta concordância \\
+LOUVAIN & 0_3 & 0.400 & 0.6000 & ❌ Baixa concordância \\
+LOUVAIN & 0_4 & 0.900 & 0.0374 & ✅ Alta concordância \\
+LPA & 0_2 & 1.000 & 0.0000 & ✅ Alta concordância \\
+LPA & 0_3 & -0.600 & 0.4000 & ⚠️ Concordância moderada \\
+\hline
+\end{tabular}
+\end{table}

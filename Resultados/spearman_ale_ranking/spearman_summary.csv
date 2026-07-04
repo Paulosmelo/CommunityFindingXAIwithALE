@@ -1,0 +1,6 @@
+Algoritmo,μ,Spearman ρ,p-valor,Features Comuns,Status
+LOUVAIN,0_2,1.0,0.0,4,✅ Alta concordância
+LOUVAIN,0_3,0.39999999999999997,0.6,4,❌ Baixa concordância
+LOUVAIN,0_4,0.8999999999999998,0.03738607346849874,5,✅ Alta concordância
+LPA,0_2,1.0,0.0,4,✅ Alta concordância
+LPA,0_3,-0.6000000000000001,0.4,4,⚠️ Concordância moderada

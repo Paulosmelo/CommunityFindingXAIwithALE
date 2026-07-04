@@ -1,0 +1,16 @@
+\begin{table}[H]
+\centering
+\caption{Comparação entre rankings ALE e de referência}
+\label{tab:ale_ranking_comparison}
+\begin{tabular}{lcllcc}
+\hline
+\textbf{Algoritmo} & \textbf{$\mu$} & \textbf{Ranking ALE} & \textbf{Ranking Ref.} & \textbf{Spearman $\rho$} & \textbf{Status} \\
+\hline
+LOUVAIN & 0_2 & Eigenvector > Triangle Participation > Expansion > Clustering Coefficient > E In & Eigenvector > Triangle Participation > Expansion > Clustering Coefficient > E Out & 1.000 & ✅ Alta concordância \\
+LOUVAIN & 0_3 & Expansion > Eigenvector > Triangle Participation > Clustering Coefficient > E In & Eigenvector > Triangle Participation > Expansion > Clustering Coefficient > E Out & 0.400 & ❌ Baixa concordância \\
+LOUVAIN & 0_4 & Triangle Participation > Eigenvector > Clustering Coefficient > Expansion > Betweenness & Triangle Participation > Eigenvector > Expansion > Clustering Coefficient > Betweenness & 0.900 & ✅ Alta concordância \\
+LPA & 0_2 & Eigenvector > Expansion > E Out > Clustering Coefficient > Shortest Path & Eigenvector > Expansion > Triangle Participation > E Out > Clustering Coefficient & 1.000 & ✅ Alta concordância \\
+LPA & 0_3 & Expansion > Triangle Participation > Eigenvector > Clustering Coefficient > Cut Ratio & Eigenvector > Clustering Coefficient > Expansion > Triangle Participation > E Out & -0.600 & ⚠️ Concordância moderada \\
+\hline
+\end{tabular}
+\end{table}
