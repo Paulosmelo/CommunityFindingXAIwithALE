@@ -1,0 +1,4 @@
+mu,n_graphs,total_nodes,nodes_zero,nodes_nonzero,zero_percent,max_entropy
+0.2,120,120000,120000,0,100.0,0.0
+0.3,120,120000,120000,0,100.0,0.0
+0.4,120,120000,120000,0,100.0,0.0
